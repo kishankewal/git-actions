@@ -1,7 +1,7 @@
 <?php
 
 echo "Running CI test...\n";
-
+echo "trigger\n";
 $a = 5;
 $b = 5;
 
