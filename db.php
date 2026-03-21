@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("mysql", "root", "root", "test_db");
+$conn = new mysqli("127.0.0.1", "root", "root", "test_db");
 
 if ($conn->connect_error) {
     die("Connection failed");
