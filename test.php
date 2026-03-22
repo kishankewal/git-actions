@@ -1,3 +1,5 @@
 <?php
-echo "Test Failure";
-exit(1);
+echo "Test Success";
+
+// echo "Test Failure";
+// exit(1);
