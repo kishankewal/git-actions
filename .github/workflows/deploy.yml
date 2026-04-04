@@ -13,6 +13,9 @@ jobs:
       - name: 📥 Checkout Code
         uses: actions/checkout@v3
 
+      - name: Debug host
+        run: echo "Host is ${{ secrets.EC2_HOST }}"
+
       - name: 🔐 Setup SSH
         run: |
           mkdir -p ~/.ssh
