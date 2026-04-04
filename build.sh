@@ -16,4 +16,4 @@ docker exec laravel_app php artisan config:clear
 docker exec laravel_app php artisan cache:clear
 docker exec laravel_app php artisan route:clear
 
-echo "✅ Deployment completed!"
+echo "✅ Deployment completed! "
