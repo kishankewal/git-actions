@@ -35,7 +35,7 @@
         </ul>
     @endif
 
-    <a class="btn btn-primary" href="{{ route('user-entries.create') }}">Add asdasd User</a>
+    <a class="btn btn-primary" href="{{ route('user-entries.create') }}">Add kishan User</a>
 
     <table>
         <thead>
